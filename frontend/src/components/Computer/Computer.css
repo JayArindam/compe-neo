@@ -1,0 +1,100 @@
+.computer-item {
+    width: 100%;
+    margin: auto;
+    border-radius: 15px;
+    background-color: #FFDEDE;
+    box-shadow: 0px 0px 10px #CF0F47;
+    transition: 0.3s;
+    animation: fadeIn 1s;
+    position: relative;
+}
+
+.computer-item:hover {
+    transform: scale(1.02);
+}
+
+.computer-img-container {
+    position: relative;
+}
+
+.computer-item-image {
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.quantity-control {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 5px;
+}
+
+.quantity-btn.single {
+    background-color: #FFDEDE;
+    color: #CF0F47;
+    border-radius: 50%;
+    padding: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.quantity-btn.single:hover {
+    border: 2px solid #FF0B55;
+}
+
+.quantity-btn-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #FFDEDE;
+    color: #FF0B55;
+    padding: 6px 12px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.quantity-btn-group svg {
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.quantity-btn-group svg:hover {
+    color: #FFDEDE;
+}
+
+.computer-item-info {
+    padding: 10px;
+    color: #FF0B55;
+    margin-bottom: 60px;
+}
+
+.computer-item-name-rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.computer-item-name-rating p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.computer-item-name-rating img {
+    width: 70px;
+}
+
+.computer-item-desc {
+    color: #FF0B55;
+    font-size: 12px;
+}
+
+.computer-item-price {
+    color: #FF0B55;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 10px 0px;
+}

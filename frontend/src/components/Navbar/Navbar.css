@@ -1,0 +1,124 @@
+/* Navbar container */
+.navbar {
+    padding: 2vh 8vh 2vh 10vh;
+    display: flex;
+    justify-content: space-between; /* Space between logo, menu, and right section */
+    align-items: center; /* Vertically align all items */
+    background-color: #cf0f4511; /* Transparent black background */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  /* Navbar logo */
+  .navbar .logo {
+    width: 250px;
+    height: auto;
+  }
+  
+  /* Navbar menu */
+  .navbar-menu {
+    display: flex;
+    list-style: none;
+    gap: 50px; /* Space between menu items */
+    color: #603601;
+    font-size: 18px;
+    margin: 0; /* Remove default margin */
+    align-items: center; /* Align items vertically */
+  }
+  
+  /* Navbar right section */
+  .navbar-right {
+    display: flex;
+    align-items: center; /* Vertically align icons, buttons, etc. */
+    gap: 40px; /* Space between elements in the right section */
+  }
+  
+  /* Cart icon */
+  .navbar-right .icon {
+    font-size: 24px;
+    color: #FF0B55;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  /* Dot on cart icon */
+  .navbar-right .dot {
+    position: absolute;
+    min-width: 10px;
+    min-height: 10px;
+    background-color: #FF0B55;
+    border-radius: 50%;
+    top: 38px;
+    right: 95px;
+  }
+  
+  /* Profile icon */
+  .cart-user-image {
+    font-size: 28px;
+    color: #FF0B55;
+    cursor: pointer;
+  }
+  
+  /* Button styling */
+  .navbar-right button {
+    background: transparent;
+    font-size: 16px;
+    color: #FF0B55;
+    border: 1px solid #FF0B55;
+    padding: 10px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* .navbar-right button:hover {
+    background: #361500;
+    color: #fff;
+  } */
+  
+  /* Dropdown styling */
+  .navbar-profile-dropdown {
+    position: absolute;
+    top: 70%; /* Position below the profile icon */
+    right: 0;
+    margin-right: 40px;
+    width: 10%;
+    color: #FF0B55;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #361500;
+    padding: 12px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #FF0B55;
+    list-style: none;
+  }
+  
+  .navbar-profile-dropdown li {
+    display: flex; /* Align items in a row */
+    align-items: center; /* Vertically align icon and text */
+    gap: 10px; /* Space between the icon and text */
+    cursor: pointer;
+  }
+  
+
+  /* Navbar alignment for mobile */
+  @media (max-width: 750px) {
+    .navbar-menu {
+      display: none; /* Hide menu for mobile */
+    }
+  
+    .navbar-right {
+      gap: 20px; /* Adjust spacing for mobile */
+    }
+  
+    .navbar {
+      padding: 2vh 3vh 0vh 3vh;
+    }
+  }
+  
