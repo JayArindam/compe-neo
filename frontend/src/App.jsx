@@ -10,7 +10,6 @@ import MyOrders from './pages/MyOrders/MyOrders'
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Verify from './pages/Verify/Verify';
-import Loli from './components/LoliDance/Loli';
 import PrivacyPolicy from './pages/PrivacyPolicy/privacypolicy'
 import AboutUs from './pages/AboutUs/AboutUs'
 import UserQuery from './pages/UserQuery/UserQuery'
