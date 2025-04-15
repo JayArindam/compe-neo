@@ -12,13 +12,13 @@
     display: grid;
     grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 0.5fr;
     align-items: center;
-    color: white;
+    color: #FF0B55;
     font-size: max(1vw, 12px);
 }
 
 .cart-items-item {
     margin: 10px 0px;
-    color: white;
+    color: #FF0B55;
 }
 
 .cart-items-item img {
@@ -52,7 +52,7 @@
 .cart-total-details {
     display: flex;
     justify-content: space-between;
-    color: white;
+    color: #FF0B55;
 }
 
 .cart-total hr {
@@ -60,13 +60,13 @@
 }
 
 .title {
-    color: white;
+    color: #FF0B55;
 }
 
 .cart-total button {
     border: none;
-    color: white;
-    background-color: #603601;
+    color: #FF0B55;
+    background-color: #FFDEDE;
     width: max(15vw,200px);
     padding: 12px 0px;
     border-radius: 4px;
@@ -77,14 +77,14 @@
     flex: 1;
 }
 .cart-promocode p{
-    color: white;
+    color: #FF0B55;
 }
 .cart-promocode-input{
     margin-top: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #eaeaea;
+    background-color: #FFDEDE;
     border-radius: 4px;
 }
 .cart-promocode-input input{
@@ -96,9 +96,9 @@
 .cart-promocode-input button{
     width: max(10vw,150px);
     padding: 12px 5px;
-    background-color: #603601;
+    background-color: #FFDEDE;
     border: none;
-    color: white;
+    color: #FF0B55;
     border-radius: 4px;
 }
 
