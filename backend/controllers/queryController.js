@@ -11,7 +11,7 @@ const sendQuery = async (req, res) => {
             query
         });
 
-        res.json({ success: true, message: "Query Added" });
+        res.json({ success: true, message: "Query Submitted" });
     } catch (error) {
         console.log(error);
         res.json({ success: false, message: "Error" });

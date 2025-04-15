@@ -1,40 +1,82 @@
-.query{
-    width: 70%;
-    margin-left: max(5vw,25px);
-    margin-top: 50px;
-    color: #CC9544;
-    font-size: 16px;
-}
-.query form{
-   gap: 20px;
-}
-.query-img-upload img{
-    width: 120px;
-}
-.query-product-name, .query-product-description{
-    width: max(40%,280px);
-}
-.query-product-name input ,.query-product-description textarea{
-    padding: 10px 10px;
-    background-color: #60350179;
-    color: #CC9544;
-}
-.query-category-price{
+.query-container {
     display: flex;
-    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 1rem;
+    background: #000000;
+    min-height: 100vh;
 }
-.query-category-price select,.query-category-price input{
-    max-width: 120px;
-    padding: 10px;
-    background-color: #60350179;
-    color: #CC9544;
+
+.query-box {
+    background: #FFDEDE;
+    backdrop-filter: blur(10px);
+    border: 1px solid #FF0B55;
+    border-radius: 16px;
+    padding: 2rem;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 5px 50px rgba(255, 55, 55, 0.692);
+    animation: fadeIn 0.6s ease-in-out;
 }
-.query-btn{
-    max-width: 120px;
+
+.query-box h2 {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #FF0B55;
+}
+
+.query-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.query-field p {
+    margin-bottom: 0.5rem;
+    color: #FF0B55;
+    font-weight: 500;
+}
+
+.query-field input,
+.query-field textarea {
+    padding: 0.75rem 1rem;
+    border: 1px solid #FF0B55;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border 0.3s, box-shadow 0.3s;
+}
+
+.query-field input:focus,
+.query-field textarea:focus {
+    outline: none;
+    border-color: #FF0B55;
+    box-shadow: 0 0 0 3px rgba(255, 43, 96, 0.288);
+}
+
+.query-btn {
+    padding: 0.75rem;
+    background-color: #FF0B55;
+    color: #FFDEDE;
+    font-weight: bold;
     border: none;
-    margin-top: 20px;
-    padding: 10px;
-    background-color: #603601;
-    color: #CC9544;
+    border-radius: 8px;
     cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.query-btn:hover {
+    background-color: #CF0F47;
+}
+
+/* Fade in animation */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
