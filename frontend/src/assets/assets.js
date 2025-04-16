@@ -12,12 +12,9 @@ import cross_icon from './cross_icon.png'
 import rating_starts from './rating_starts.png'
 import parcel_icon from './parcel_icon.png'
 
-import dance from './dance.gif'
-import headvid from './headvid.mp4'
 
 export const assets = {
     logo,
-    headvid,
     rating_starts,
     add_icon_green,
     add_icon_white,
@@ -29,5 +26,4 @@ export const assets = {
     twitter_icon,
     cross_icon,
     parcel_icon,
-    dance
 }

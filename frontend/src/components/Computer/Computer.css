@@ -2,8 +2,8 @@
     width: 100%;
     margin: auto;
     border-radius: 15px;
-    background-color: #FFDEDE;
-    box-shadow: 0px 0px 10px #CF0F47;
+    background-color: #393E46;
+    box-shadow: 0px 0px 10px #00ADB5;
     transition: 0.3s;
     animation: fadeIn 1s;
     position: relative;
@@ -19,6 +19,7 @@
 
 .computer-item-image {
     width: 100%;
+    max-height: 25vh;
     border-radius: 15px 15px 0px 0px;
 }
 
@@ -33,8 +34,8 @@
 }
 
 .quantity-btn.single {
-    background-color: #FFDEDE;
-    color: #CF0F47;
+    background-color: #EEEEEE;
+    color: #00ADB5;
     border-radius: 50%;
     padding: 8px;
     cursor: pointer;
@@ -42,15 +43,15 @@
 }
 
 .quantity-btn.single:hover {
-    border: 2px solid #FF0B55;
+    border: 2px solid #BEADFA;
 }
 
 .quantity-btn-group {
     display: flex;
     align-items: center;
     gap: 10px;
-    background-color: #FFDEDE;
-    color: #FF0B55;
+    background-color: #EEEEEE;
+    color: #00ADB5;
     padding: 6px 12px;
     border-radius: 50px;
     cursor: pointer;
@@ -62,12 +63,12 @@
 }
 
 .quantity-btn-group svg:hover {
-    color: #FFDEDE;
+    color: #EEEEEE;
 }
 
 .computer-item-info {
     padding: 10px;
-    color: #FF0B55;
+    color: #00ADB5;
     margin-bottom: 60px;
 }
 
@@ -88,12 +89,12 @@
 }
 
 .computer-item-desc {
-    color: #FF0B55;
+    color: #EEEEEE;
     font-size: 12px;
 }
 
 .computer-item-price {
-    color: #FF0B55;
+    color: #00ADB5;
     font-size: 22px;
     font-weight: 500;
     margin: 10px 0px;

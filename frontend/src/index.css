@@ -10,12 +10,12 @@
 
 body {
   min-height: 100vh;
-  background-color: #000000;
+  background-color: #222831;
 }
 
 a {
   text-decoration: none;
-  color: #FF0B55;
+  color: #00ADB5;
 }
 
 .app {

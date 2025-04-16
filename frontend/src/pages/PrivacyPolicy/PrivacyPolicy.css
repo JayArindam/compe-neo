@@ -1,16 +1,17 @@
 .privacy-container {
     max-width: 1300px;
     margin: 50px auto;
-    background: #FFDEDE;
+    background: #393E46;
     padding: 20px;
-    color: #FF0B55;
+    color: #EEEEEE;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 20px #00acb586;
+    font-family: fantasy;
   }
 
   h1 {
     text-align: center;
-    color: #FF0B55;
+    color: #00ADB5;
     font-size: 2.5em;
   }
 

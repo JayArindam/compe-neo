@@ -9,7 +9,7 @@ const StoreContextProvider = (props) => {
     const [cartItems, setCartItems] = useState({});
     const [token, setToken] = useState("");
 
-    // Add item to cart
+    // Add item to cart ------------------------------------------------------------------------------------------------------------
     const addToCart = async (itemId) => {
         if (!cartItems[itemId]) {
             setCartItems((prev) => ({ ...prev, [itemId]: 1 }));
@@ -21,6 +21,7 @@ const StoreContextProvider = (props) => {
         }
     };
 
+    // Remove from cart -----------------------------------------------------------------------------------------------------------------
     const removeFromCart = async (itemId) => {
         setCartItems((prev) => ({ ...prev, [itemId]: prev[itemId] - 1 }));
         if (token) {
@@ -28,7 +29,7 @@ const StoreContextProvider = (props) => {
         }
     };
 
-    // Calculate total cart amount
+    // Calculate total cart amount ------------------------------------------------------------------------------------------------------
     const getTotalCartAmount = () => {
         let totalAmount = 0;
         for (const item in cartItems) {

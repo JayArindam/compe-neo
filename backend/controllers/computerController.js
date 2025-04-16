@@ -12,6 +12,7 @@ const listComputer = async (req, res) => {
 };
 
 const addComputer = async (req, res) => {
+    
     if (!req.file) {
         return res.status(400).json({ success: false, message: "Image not uploaded!" });
     }

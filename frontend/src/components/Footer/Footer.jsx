@@ -24,6 +24,7 @@ const Footer = () => {
                 <li><a href="#">About Us</a></li>
                 <li><a href="#footer">Contact Us</a></li>
                 <li><a href="/privacy-policy">Privacy policy</a></li>
+                <li><a href="/user-query">Register Query</a></li>
             </ul>
         </div>
         <div className="footer-content-right">

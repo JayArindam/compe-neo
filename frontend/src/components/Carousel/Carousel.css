@@ -28,8 +28,8 @@
     top: 50%;
     transform: translateY(-50%);
     font-size: 2rem;
-    background: #ff0b546b;
-    color: #FFDEDE;
+    background: #00acb556;
+    color: #EEEEEE;
     border: none;
     padding: 0.5rem 1rem;
     cursor: pointer;
@@ -53,13 +53,13 @@
     height: 10px;
     width: 10px;
     margin: 0 5px;
-    background: #FFDEDE;
+    background: #EEEEEE;
     border-radius: 50%;
     display: inline-block;
     cursor: pointer;
   }
   
   .dot.active {
-    background: #FF0B55;
+    background: #00ADB5;
   }
   

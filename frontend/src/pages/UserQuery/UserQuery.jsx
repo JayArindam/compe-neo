@@ -40,7 +40,7 @@ const UserQuery = () => {
         }
     };
     
-    const onChangeHandler = (event) => {
+    const onChangeHandler = (event) => { // clears the values
         const { name, value } = event.target;
         setData((prevData) => ({ ...prevData, [name]: value }));
     };
